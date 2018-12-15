@@ -1,5 +1,8 @@
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 public class MainForGraphics1
 {
 public static void main(String[] args)
@@ -8,7 +11,7 @@ public static void main(String[] args)
 JFrame frame = new JFrame();
 
 
-frame.setSize(1920,1080);
+frame.setSize(800,600);
 
 
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -25,12 +28,10 @@ frame.setVisible(true);
 }
 }
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
+
 
 public class Panel00 extends JPanel {
-	Timer t = new Timer(1, new Listener());
+	Timer t = new Timer(12, new Listener());
 	int ctr = 0;
 	double G = 0.1; //Gravitational Constant
 
