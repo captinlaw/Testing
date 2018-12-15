@@ -30,7 +30,7 @@ frame.setVisible(true);
 
 
 
-public class Panel00 extends JPanel {
+class Panel00 extends JPanel {
 	Timer t = new Timer(12, new Listener());
 	int ctr = 0;
 	double G = 0.1; //Gravitational Constant
